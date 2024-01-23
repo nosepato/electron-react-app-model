@@ -9,8 +9,6 @@ function App() {
     // <Form label1={'Nome: '} label2={'Idade: '} textButton={'Salvar'}></Form>
     // </div>
 
-  
-
   )
 }
 
