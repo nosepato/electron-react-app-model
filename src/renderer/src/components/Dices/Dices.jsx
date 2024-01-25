@@ -6,7 +6,7 @@ import dice4 from '../../images/dado4.svg';
 import dice5 from '../../images/dado5.svg';
 import dice6 from '../../images/dado6.svg';
 
-import './index.css'
+import './Dices.css'
 
 function Dices() {
     const [result, setResult] = useState('Clique no botão abaixo para iniciar');
@@ -54,7 +54,7 @@ function Dices() {
         ])
       }
       user1.current.setAttribute('src', diceImages[firstRandomNum]);
-      user1.current.setAttribute('src', diceImages[secondRandomNum]);
+      user2.current.setAttribute('src', diceImages[secondRandomNum]);
     };
 
     const reset = () => {
