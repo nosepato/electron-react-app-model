@@ -49,7 +49,7 @@ function Dices() {
           ...history,
           {
             id: history.length,
-            value: `Deu empate! Ambos jogadores ficaram com ${firstRandomNum + 1} ponros`
+            value: `Deu empate! Ambos jogadores ficaram com ${firstRandomNum + 1} pontos`
           }
         ])
       }
